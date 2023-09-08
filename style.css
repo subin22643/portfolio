@@ -1,0 +1,103 @@
+* {
+  /* font-family: 'Jua', sans-serif; */
+  font-family: 'Nanum Gothic', sans-serif;
+  /* font-family: 'Noto Sans KR', sans-serif; */
+  margin-left: 30px;
+}
+
+.frontpage {
+  height: 500px;;
+}
+
+.container{
+  height: 500px;
+  width: 100%;
+  /* border: 1px solid black; */
+  display: flex;
+  justify-content: space-around;
+}
+
+.image {
+  height: 500px;
+}
+
+.hello h2 {
+  font-size: 50px;
+  color: chocolate;
+  margin-top: 40px;
+}
+.hello h3 {
+  margin-top: 30px;
+  font-size: 20px;
+  color: gray;
+  margin-left: -20px;
+  margin-bottom: 20px;
+}
+
+.box1{
+  display: flex;
+  gap: 80px;
+}
+
+.box11 {
+  display: flex;
+  flex-direction: column;
+}
+.text {
+  display: flex;
+  gap: 5px;
+  font-size: 15px;
+  color: rgb(173, 173, 173);
+  margin-left: -110px;
+  line-height: 10px;
+}
+
+.intro {
+  height: 300px;
+  background-color: lightblue;
+}
+.project {
+  height: 300px;
+  background-color: lightblue;
+}
+.skills {
+  height: 300px;
+}
+
+.contact {
+  height: 300px;
+  background-color: lightblue;
+}
+
+.footer {
+  height: 50px;
+  background-color: black;
+  color: white;
+  position: fixed;
+  bottom: 0px;
+  width: 100%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+
+
+/* not이 평소에는 안보이게 */
+.not-provide {
+  display: none;
+}
+
+/* 470보다 작으면 not만 보이게 */
+@media (max-width:470px) {
+  main,
+  section,
+  nav,
+  footer {
+    display: none;
+  }
+}
+
+.not-provide {
+  display: block;
+}
